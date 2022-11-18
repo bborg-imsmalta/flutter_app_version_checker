@@ -53,7 +53,7 @@ class _MyAppState extends State<MyApp> {
             children: [
               const SizedBox(height: 25.0),
               const Text(
-                "Facebook: (playstore)",
+                "Snapchat: (playstore)",
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 10.0),

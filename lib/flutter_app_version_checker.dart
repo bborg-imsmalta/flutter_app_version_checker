@@ -122,7 +122,7 @@ Future<AppCheckerResult> _checkApkPureStore(
           "Can't find an app in the ApkPure Store with the id: $packageName";
     } else {
       newVersion = RegExp(
-              r'<div class="details-sdk"><span itemprop="version">(.*?)<\/span>for Android<\/div>')
+              r'<span>(.*?)<\/span> by')
           .firstMatch(response.body)!
           .group(1)!
           .trim();

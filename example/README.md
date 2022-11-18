@@ -1,6 +1,6 @@
 # app_version_checker_example
 
-Demonstrates how to use the app_version_checker plugin.
+Demonstrates how to use the flutter_app_version_checker plugin.
 
 ## Getting Started
 
